@@ -32,7 +32,6 @@ def results():
     return render_template("results.html", page=page)
 
 
-
 def get_page(search_term):
     try:
         page = wikipedia.page(search_term)
